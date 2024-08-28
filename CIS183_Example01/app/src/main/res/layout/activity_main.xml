@@ -8,9 +8,22 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/lbl_v_HW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
         android:text="Hello World!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etxt_v_TB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
